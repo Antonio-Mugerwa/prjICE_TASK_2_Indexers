@@ -16,11 +16,11 @@
             Movies movies = new Movies("Avengers Endgame", "The Russso Brothers", "Sci-fi", 2018, 94);
             movies["movieGenre"] = "Sci-fi & Superhero Action";
 
-            Console.WriteLine($"Movie title: {movies["movieTitle"]}"); // Output: Avengers Endgame
-            Console.WriteLine($"Movie director: {movies["movieDirector"]}"); // Output: The Russso Brothers
-            Console.WriteLine($"Movie genre: {movies["movieGenre"]}"); // Output: Sci-fi & Superhero Action
-            Console.WriteLine($"Release year: {movies["releaseYear"]}"); // Output: 2018
-            Console.WriteLine($"Rotten tomato score: {movies["reviewScore"]}"); // Output: 94
+            Console.WriteLine("Movie title: " + movies["title"]); // Output: Avengers Endgame
+            Console.WriteLine("Movie director:" + movies["director"]); // Output: The Russso Brothers
+            Console.WriteLine("Movie genre: " + movies["genre"]); // Output: Sci-fi & Superhero Action
+            Console.WriteLine("Release year:" + movies["year"]); // Output: 2018
+            Console.WriteLine("Rotten tomato score:" + movies["review"]); // Output: 94
         }
     }
 }
